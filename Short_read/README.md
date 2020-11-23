@@ -16,8 +16,8 @@ The strains sequenced are:
 
 you can run this by typing
 
-* `sbatch 00_make_links.sh`
- wait till finished, monitor with `squeue -u $USER`
+* `sbatch 00_make_links.sh` - wait till finished, monitor with `squeue -u $USER`.
+    * if you are running on a non UCR HPCC system see [download.sh](https://github.com/biodataprog/GEN220_2020_examples/blob/main/Short_read/download.sh) which will download the datasets for you.
 
 * `sbatch 01_align.sh`  - this will run each library one at a time, will take a while since it runs each one individually
 
