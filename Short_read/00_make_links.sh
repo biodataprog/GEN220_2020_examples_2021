@@ -7,9 +7,9 @@ module load samtools
 # make a link
 FOLDER=/bigdata/gen220/shared/data/S_enterica/
 GENOME=S_enterica_CT18.fasta
-if [ ! -s $GENOME ]; then
+if [ ! -L $GENOME ]; then
 	# make a symlink
-	ln -s $FOLDER/$GENOMEFILE .
+	ln -s $FOLDER/$GENOME .
 fi
 
 if [ ! -f $GENOME.pac ]; then
