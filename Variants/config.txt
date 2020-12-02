@@ -1,5 +1,5 @@
 GENOMEFOLDER=genome
-REFGENOME=genome/FungiDB-39_AfumigatusAf293_Genome.fasta
+REFGENOME=genome/FungiDB-49_AfumigatusAf293_Genome.fasta
 GENOMENAME=Af293
 SAMPFILE=samples.csv
 FASTQFOLDER=input
