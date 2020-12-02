@@ -21,7 +21,7 @@ fi
 if [ ! -f $REFGENOME.dict ]; then
   echo "NEED a $REFGENOME.dict - make sure 00_index.sh is run"
 fi
-mkdir -p $TMPOUTDIR $ALNFOLDER
+mkdir -p $TMPOUTDIR $ALNFOLDER $UNMAPPEDASM $UNMAPPED
 
 CPU=2
 if [ $SLURM_CPUS_ON_NODE ]; then
