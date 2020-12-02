@@ -1,7 +1,6 @@
 #!/usr/bin/bash
-module load samtools/1.9
+module load samtools/1.11
 module load bwa/0.7.17
-module load picard
 if [ -f config.txt ]; then
 	source config.txt
 fi
@@ -39,7 +38,7 @@ DICT=$(basename $FASTAFILE .fasta)".dict"
 
 if [[ ! -f $DICT || $FASTAFILE -nt $DICT ]]; then
 	rm -f $DICT
-	picard CreateSequenceDictionary R=$FASTAFILE O=$DICT
+	samtools dict $FASTAFILE > $DICT
 	ln -s $DICT $FASTAFILE.dict 
 fi
 
@@ -49,7 +48,12 @@ IFS=,
 tail -n +2 $SAMPFILE | while read STRAIN SRA
 do
 	echo $STRAIN $SRA
+	# if On UCR HPCC can use already downloaded files
 	if [ ! -f $FASTQFOLDER/${SRA}_1.$FASTQEXT ]; then
-		fastq-dump -O $FASTQFOLDER --split-e --gzip $SRA 
+		if [ -f /bigdata/gen220/shared/data/Afum/${SRA}_1.$FASTQEXT ]; then
+			ln -s /bigdata/gen220/shared/data/Afum/${SRA}_[12].$FASTQEXT $FASTQFOLDER
+		else
+			fastq-dump -O $FASTQFOLDER --split-e --gzip $SRA 
+		fi
 	fi
 done
