@@ -1,0 +1,100 @@
+	Cyanobacterium_aponinum_pcc_10605.ASM31767v1	Nostoc_punctiforme_pcc_73102.ASM2002v1	Oscillatoriales_cyanobacterium_jsc_12.ASM30994v1
+Number of genes	3431	6690	4780
+Number of genes in orthogroups	2813	5080	3507
+Number of unassigned genes	618	1610	1273
+Percentage of genes in orthogroups	82.0	75.9	73.4
+Percentage of unassigned genes	18.0	24.1	26.6
+Number of orthogroups containing species	2381	3396	3030
+Percentage of orthogroups containing species	64.1	91.4	81.5
+Number of species-specific orthogroups	47	419	90
+Number of genes in species-specific orthogroups	148	1304	322
+Percentage of genes in species-specific orthogroups	4.3	19.5	6.7
+
+
+Number of genes per-species in orthogroup	Number of orthogroups	Number of orthogroups	Number of orthogroups
+'0	1335	320	686
+'1	2168	2596	2773
+'2	140	484	194
+'3	38	144	40
+'4	9	61	11
+'5	8	43	3
+'6	3	21	1
+'7	5	16	2
+'8	3	12	0
+'9	1	4	3
+'10	1	3	0
+11-15	3	5	1
+16-20	1	3	0
+21-50	1	4	1
+51-100	0	0	1
+101-150	0	0	0
+151-200	0	0	0
+201-500	0	0	0
+501-1000	0	0	0
+'1001+	0	0	0
+
+Number of genes per-species in orthogroup	Percentage of orthogroups	Percentage of orthogroups	Percentage of orthogroups
+'0	35.9	8.6	18.5
+'1	58.3	69.9	74.6
+'2	3.8	13.0	5.2
+'3	1.0	3.9	1.1
+'4	0.2	1.6	0.3
+'5	0.2	1.2	0.1
+'6	0.1	0.6	0.0
+'7	0.1	0.4	0.1
+'8	0.1	0.3	0.0
+'9	0.0	0.1	0.1
+'10	0.0	0.1	0.0
+11-15	0.1	0.1	0.0
+16-20	0.0	0.1	0.0
+21-50	0.0	0.1	0.0
+51-100	0.0	0.0	0.0
+101-150	0.0	0.0	0.0
+151-200	0.0	0.0	0.0
+201-500	0.0	0.0	0.0
+501-1000	0.0	0.0	0.0
+'1001+	0.0	0.0	0.0
+
+Number of genes per-species in orthogroup	Number of genes	Number of genes	Number of genes
+'0	0	0	0
+'1	2168	2596	2773
+'2	280	968	388
+'3	114	432	120
+'4	36	244	44
+'5	40	215	15
+'6	18	126	6
+'7	35	112	14
+'8	24	96	0
+'9	9	36	27
+'10	10	30	0
+11-15	37	57	13
+16-20	19	58	0
+21-50	23	110	39
+51-100	0	0	68
+101-150	0	0	0
+151-200	0	0	0
+201-500	0	0	0
+501-1000	0	0	0
+'1001+	0	0	0
+
+Number of genes per-species in orthogroup	Percentage of genes	Percentage of genes	Percentage of genes
+'0	0.0	0.0	0.0
+'1	63.2	38.8	58.0
+'2	8.2	14.5	8.1
+'3	3.3	6.5	2.5
+'4	1.0	3.6	0.9
+'5	1.2	3.2	0.3
+'6	0.5	1.9	0.1
+'7	1.0	1.7	0.3
+'8	0.7	1.4	0.0
+'9	0.3	0.5	0.6
+'10	0.3	0.4	0.0
+11-15	1.1	0.9	0.3
+16-20	0.6	0.9	0.0
+21-50	0.7	1.6	0.8
+51-100	0.0	0.0	1.4
+101-150	0.0	0.0	0.0
+151-200	0.0	0.0	0.0
+201-500	0.0	0.0	0.0
+501-1000	0.0	0.0	0.0
+'1001+	0.0	0.0	0.0
