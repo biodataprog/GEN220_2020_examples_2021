@@ -6,8 +6,6 @@ library(viridis)
 pdf("boxplot.pdf")
 # setwd("/bigdata/stajichlab/jstajich/teaching/GEN220/GEN220_2020_examples/Data_Viz/folder2")
 gsnap_exon = read.table("gsnap_exon_frags.tab.gz",sep="\t",header=T)
-# draw a histogram
-hist(gsnap_exon$Length,100)
 
 ggplot(gsnap_exon, aes(x=Strand, y=Length, fill=Strand)) +
     geom_boxplot() +
