@@ -1,9 +1,4 @@
-# GEN220 2020 examples
-Code Examples Developed during class
+# Class_Examples
+Examples of code in class
 
-## This is subheading 
-Started in October.
-
-## Added a new subheading
-
-This is another section
+These are saves of code developed or tested or explained during class. Organized by lecture topic

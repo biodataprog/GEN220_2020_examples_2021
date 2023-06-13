@@ -17,3 +17,4 @@ do
  pigz -dc $file > $m.fasta
 done
 
+orthofinder.py -f cyanobacteria -a $CPU
